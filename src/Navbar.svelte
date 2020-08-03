@@ -17,7 +17,6 @@
     z-index: 1;
     padding: 2rem;
 }
-
 </style>
 
 <nav class="flexContainer">
@@ -28,6 +27,6 @@
     </div>
     <div class="flexContainer">
         <NavLinks />
-        <Button text={"Get Started"} url={"https://commercebear.com/getstarted"} />
+        <Button text={"Get Started"} url={"https://commercebear.com/getstarted"} padding="1.5rem 2rem" />
     </div>
 </nav>
