@@ -12,7 +12,7 @@
     color: #545759;
 }
 
-.container li, .socialLinks a {
+.socialLinks, .nav {
     color: #1c1c1c;
 }
 
@@ -26,10 +26,7 @@
 
 .socialLinks {
     margin: 3rem 0;
-}
-
-.socialLinks > *:not(:last-child) {
-    margin-right: 1.5rem;
+    font-size: 2rem;
 }
 
 .mailUpdates a {
@@ -40,7 +37,9 @@
 
 <footer class="container">
     <div class="wrapper">
-        <NavLinks />
+        <div class="nav">
+            <NavLinks />
+        </div>
         <div class="contact">
             <p>hello@commercebear.com</p>
             <p>Canada +1 647 479 6243</p>

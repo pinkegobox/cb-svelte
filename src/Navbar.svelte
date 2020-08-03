@@ -16,6 +16,7 @@
     position: relative;
     z-index: 1;
     padding: 2rem;
+    font-weight: 500;
 }
 </style>
 

@@ -2,7 +2,6 @@
 .list {
     display: flex;
     justify-content: center;
-    font-weight: 500;
 }
 
 .list > *:first-child {

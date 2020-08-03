@@ -3,6 +3,12 @@
     export let iconName;
 </script>
 
+<style>
+.socialLinks > *:not(:last-child) {
+    margin-right: 0.6rem;
+}
+</style>
+
 <a
     href="/"
     target="_blank"
