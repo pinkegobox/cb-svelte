@@ -2,6 +2,7 @@
     import Icon from 'fa-svelte';
     export let iconName;
     export let url;
+    export let text;
 </script>
 
 <style>
@@ -14,7 +15,7 @@
     href={url}
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="This is an external link (opens in a new tab)"
+    aria-label={`Visit us at our ${text} account (opens in a new tab)`}
 >
     <Icon icon={iconName}></Icon>
 </a>
