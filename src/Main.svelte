@@ -3,7 +3,46 @@
     import Button from './Button.svelte';
 </script>
 
-<main class="wrapper">
+<style>
+.container {
+    padding: 96px 32px;
+    color: #545759;
+}
+
+.container > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+
+.desc {
+    padding: 0 3rem;
+}
+
+h2 {
+    line-height: 1.3;
+    margin-bottom: 3rem;
+}
+
+.horizontalRule {
+    margin: 5rem 0;
+    border: none;
+    background-color: rgba(84,87,89,.15);
+    height: 1px;
+}
+
+.learnMore {
+    margin: 5rem 0;
+}
+
+.learnMore h2 {
+    margin-bottom: 5rem;
+}
+
+/* .learnMore a {
+    font-size: 2rem;
+} */
+</style>
+
+<main class="wrapper container">
     <div class="desc">
         <h2>
             Generate new revenue, profits, and establish an effective
