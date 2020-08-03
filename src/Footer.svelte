@@ -1,6 +1,8 @@
 <script>
     import NavLinks from './NavLinks.svelte';
     import SocialLink from './SocialLink.svelte';
+    import Icon from 'fa-svelte';
+    import { faLinkedinIn, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <style>
@@ -45,9 +47,9 @@
             <p>USA +1 929 232 2327</p>
         </div>
         <div class="socialLinks">
-            <SocialLink />
-            <SocialLink />
-            <SocialLink />
+            <SocialLink iconName={faLinkedinIn} />
+            <SocialLink iconName={faInstagram} />
+            <SocialLink iconName={faTwitter} />
         </div>
         <p class="mailUpdates">
             <a
