@@ -1,5 +1,6 @@
 <script>
     import NavLinks from './NavLinks.svelte';
+    import SocialLink from './SocialLink.svelte';
 </script>
 
 <style>
@@ -44,7 +45,9 @@
             <p>USA +1 929 232 2327</p>
         </div>
         <div class="socialLinks">
-    
+            <SocialLink />
+            <SocialLink />
+            <SocialLink />
         </div>
         <p class="mailUpdates">
             <a
