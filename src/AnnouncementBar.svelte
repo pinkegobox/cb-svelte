@@ -1,3 +1,7 @@
+<script>
+    import CloseButton from './CloseButton.svelte';
+</script>
+
 <style>
     .container {
     background-color: #545759;
@@ -14,6 +18,7 @@
 
 
 <div class="container">
+    <CloseButton />
     <p>
         <span role="img" aria-label="confetti emoji">🎉</span>See us in the press: Furniture Today, Business of Home, and Causal
         Living
