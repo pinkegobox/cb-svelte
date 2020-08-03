@@ -1,0 +1,3 @@
+<a href="/" class="btn">
+    Get Started
+</a>

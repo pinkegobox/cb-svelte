@@ -1,5 +1,6 @@
 <script>
     import NavLinks from './NavLinks.svelte';
+    import Button from './Button.svelte';
 </script>
 
 <style>
@@ -27,6 +28,6 @@
     </div>
     <div class="flexContainer">
         <NavLinks />
-        <a href="/">Get Started</a>
+        <Button />
     </div>
 </nav>
