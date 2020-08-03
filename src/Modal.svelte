@@ -1,4 +1,9 @@
+<script>
+    import CloseButton from './CloseButton.svelte';
+</script>
+
 <div class="container">
+    <CloseButton />
     <h2>Don't miss a thing.</h2>
     <p class="desc">
         Sign up for our mailing list and get industry updates, live events, and
