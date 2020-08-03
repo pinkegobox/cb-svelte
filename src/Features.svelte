@@ -10,29 +10,6 @@
     grid-column-gap: 5px;
     grid-row-gap: 5px;
 }
-
-.list > * {
-    text-align: left;
-}
-
-.list > li {
-    display: flex;
-    padding: 1.7rem;
-}
-
-.list p {
-    line-height: 1.5;
-}
-
-.list img {
-    width: 8rem;
-    margin-right: 1.5rem;
-}
-
-.list h3 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
 </style>
 
 <ul class="list">
