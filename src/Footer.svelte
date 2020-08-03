@@ -2,8 +2,41 @@
     import NavLinks from './NavLinks.svelte';
 </script>
 
-<footer>
-    <div className="wrapper">
+<style>
+.container {
+    background-color: #F5F5F5;
+    padding: 3rem 3.2rem 6.4rem;
+    color: #545759;
+}
+
+.container li, .socialLinks a {
+    color: #1c1c1c;
+}
+
+.contact {
+    margin-top: 6rem;
+}
+
+.contact > *:not(:last-child), .mailUpdates {
+    margin-bottom: 2rem;
+}
+
+.socialLinks {
+    margin: 3rem 0;
+}
+
+.socialLinks > *:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.mailUpdates a {
+    border-bottom: 1px solid #545759;
+    font-weight: bold;
+}
+</style>
+
+<footer class="container">
+    <div class="wrapper">
         <NavLinks />
         <div class="contact">
             <p>hello@commercebear.com</p>
@@ -20,7 +53,7 @@
                 rel="noopener noreferrer"
                 aria-label="This is an external link (opens in a new tab)"
             >
-                Click here
+                Click here 
             </a>{" "}
             to join our growing industry following and stay up to date with all
             things CommerceBear.
