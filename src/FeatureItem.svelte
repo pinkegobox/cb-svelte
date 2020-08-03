@@ -1,3 +1,9 @@
+<script>
+    export let fileName;
+    export let title;
+    export let desc;
+</script>
+
 <style>
 .desc {
     display: flex;
@@ -7,9 +13,9 @@
 </style>
 
 <li>
-    <img src="/"/>
+    <img src={`/assets/${fileName}`} alt={`${title} icon`} />
     <div class="desc">
-        <h3>test</h3>
-        <p>test</p>
+        <h3>{title}</h3>
+        <p>{desc}</p>
     </div>
 </li>
