@@ -1,6 +1,7 @@
 <script>
     import Icon from 'fa-svelte';
     export let iconName;
+    export let url;
 </script>
 
 <style>
@@ -10,7 +11,7 @@
 </style>
 
 <a
-    href="/"
+    href={url}
     target="_blank"
     rel="noopener noreferrer"
     aria-label="This is an external link (opens in a new tab)"

@@ -46,9 +46,9 @@
             <p>USA +1 929 232 2327</p>
         </div>
         <div class="socialLinks">
-            <SocialLink iconName={faLinkedinIn} />
-            <SocialLink iconName={faInstagram} />
-            <SocialLink iconName={faTwitter} />
+            <SocialLink iconName={faLinkedinIn} url="http://linkedin.com/company/commercebear" />
+            <SocialLink iconName={faInstagram} url="https://www.instagram.com/commercebear/" />
+            <SocialLink iconName={faTwitter} url="https://twitter.com/commercebear" />
         </div>
         <p class="mailUpdates">
             <a
