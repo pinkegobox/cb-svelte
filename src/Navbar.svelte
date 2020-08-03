@@ -27,6 +27,6 @@
     </div>
     <div class="flexContainer">
         <NavLinks />
-        <a href="">Get Started</a>
+        <a href="/">Get Started</a>
     </div>
 </nav>
