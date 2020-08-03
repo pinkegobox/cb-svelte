@@ -28,6 +28,6 @@
     </div>
     <div class="flexContainer">
         <NavLinks />
-        <Button />
+        <Button text={"Get Started"}/>
     </div>
 </nav>

@@ -1,3 +1,7 @@
+<script>
+    export let text;
+</script>
+
 <a href="/" class="btn">
-    Get Started
+    {text}
 </a>
