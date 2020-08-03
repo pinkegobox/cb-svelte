@@ -27,3 +27,10 @@ a {
 ol, ul { 
   list-style: none; 
 }
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}

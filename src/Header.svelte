@@ -26,7 +26,7 @@
 <header class="banner">
     <div class="content">
         <Navbar />
-        <div class="container">
+        <div class="wrapper container">
             <h1>Multichannel ecommerce designed for furniture manufacturers.</h1>
         </div>
     </div>
