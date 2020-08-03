@@ -28,6 +28,6 @@
     </div>
     <div class="flexContainer">
         <NavLinks />
-        <Button text={"Get Started"}/>
+        <Button text={"Get Started"} url={"https://commercebear.com/getstarted"} />
     </div>
 </nav>
