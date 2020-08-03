@@ -3,6 +3,11 @@
 </script>
 
 <style>
+h1 {
+    font-size: 4.5rem;
+    text-align: center; 
+}
+
 .banner {
     background-image: url('/assets/banner.jpeg');
     background-size: cover;
@@ -20,6 +25,21 @@
     bottom: 0;
     left: 0;
     background-color: rgba(137,141,144,.3);
+}
+
+.content {
+    position: relative;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
 }
 </style>
 
