@@ -2,7 +2,40 @@
 	import FeatureItem from './FeatureItem.svelte';
 </script>
 
-<ul className="list">
+<style>
+.list {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.list > * {
+    text-align: left;
+}
+
+.list > li {
+    display: flex;
+    padding: 1.7rem;
+}
+
+.list p {
+    line-height: 1.5;
+}
+
+.list img {
+    width: 8rem;
+    margin-right: 1.5rem;
+}
+
+.list h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+</style>
+
+<ul class="list">
     <FeatureItem
         img="/assets/multichannel.jpeg"
         title="Multi Channel Publishing"
