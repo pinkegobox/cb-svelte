@@ -1,3 +1,7 @@
+<script>
+    export let ref;
+</script>
+
 <style>
 .closeAnnoucement {
     position: absolute;
@@ -15,16 +19,6 @@
     font-weight: normal;
     cursor: pointer;
 }
-
-span {
-    background-color: rgba(0,0,0,.15);
-    height: 100%;
-    width: 3.5rem;
-}
-
-span:after {
-    font-size: 1.7rem;
-}
 </style>
 
 
@@ -33,4 +27,5 @@ span:after {
     tabIndex="0"
     role="button"
     aria-label="Close Announcement"
+    {ref}
 ></span>

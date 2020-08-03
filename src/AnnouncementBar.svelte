@@ -14,11 +14,17 @@
     position: relative;
     z-index: 1;
 }
+
+:global([ref=barClose]) {
+    background-color: rgba(0,0,0,.15);
+    height: 100%;
+    width: 3.5rem;
+}
 </style>
 
 
 <div class="container">
-    <CloseButton />
+    <CloseButton ref="barClose"/>
     <p>
         <span role="img" aria-label="confetti emoji">🎉</span>See us in the press: Furniture Today, Business of Home, and Causal
         Living

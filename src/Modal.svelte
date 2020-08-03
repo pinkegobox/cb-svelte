@@ -2,8 +2,77 @@
     import CloseButton from './CloseButton.svelte';
 </script>
 
+<style>
+h2 {
+    font-size: 3.3rem;
+}
+
+.container {
+    max-width: 300px;
+    height: auto;
+    margin: 4%;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgba(121,121,121,.17);
+    outline: 1px solid rgba(121,121,121,.1);
+    padding: 5rem 4rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    font-size: 1.4rem;
+}
+
+.container > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+
+:global([ref=modalClose]) {
+    font-size: 2.3rem;
+    color: #9c9c9c;
+    padding: .4em .7em;
+}
+
+.desc {
+    line-height: 1.3;
+    letter-spacing: .02em;
+    color: #171717;
+    font-weight: 300;
+}
+
+.form input[type="text"]  {
+    padding: 1.4rem 1.5rem;
+    border: 1px solid #bfbfbf;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: inherit;
+    letter-spacing: .015em;
+}
+
+.form input[type="button"] {
+    background: #a09ebd;
+    color: #fff;
+    border-style: none;
+    border-radius: 4px;
+    min-height: 4.4rem;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    letter-spacing: .05em;
+    cursor: pointer;
+}
+
+.formDisclaimer {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+</style>
+
 <div class="container">
-    <CloseButton />
+    <CloseButton ref="modalClose"/>
     <h2>Don't miss a thing.</h2>
     <p class="desc">
         Sign up for our mailing list and get industry updates, live events, and
@@ -13,5 +82,5 @@
         <input type="text" placeholder="Email Address" />
         <input type="button" value="Sign Up" />
     </form>
-    <p class="disclaimer">We respect your privacy.</p>
+    <p class="formDisclaimer">We respect your privacy.</p>
 </div>
