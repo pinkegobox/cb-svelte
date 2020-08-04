@@ -9,19 +9,16 @@
 	let isModalVisible = true;
 
     const handleBarClick = () => {
-        alert('you clicked the bar');
         isBarVisible = false;
         localStorage.setItem("isBarVisible", false);
 	}
 	
 	const handleModalClick = () => {
-        alert('you clicked the modal');
         isModalVisible = false;
         localStorage.setItem("isModalVisible", false);
     }
 
     if (localStorage.getItem("isBarVisible") === 'false') {
-		console.log(localStorage.getItem("isBarVisible"))
         isBarVisible = false;
 	}
 	
