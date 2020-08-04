@@ -1,6 +1,7 @@
 <script>
     export let ref;
-    export let handleClick;
+    export let handleBarClick;
+    export let handleModalClick;
 </script>
 
 <style>
@@ -29,5 +30,6 @@
     role="button"
     aria-label="Close Announcement"
     {ref}
-    on:click={handleClick}
+    on:click={handleBarClick}
+    on:click={handleModalClick}
 ></span>

@@ -1,5 +1,6 @@
 <script>
     import CloseButton from './CloseButton.svelte';
+    export let handleModalClick;
 </script>
 
 <style>
@@ -72,7 +73,7 @@ h2 {
 </style>
 
 <div class="container">
-    <CloseButton ref="modalClose"/>
+    <CloseButton ref="modalClose" {handleModalClick} />
     <h2>Don't miss a thing.</h2>
     <p class="desc">
         Sign up for our mailing list and get industry updates, live events, and

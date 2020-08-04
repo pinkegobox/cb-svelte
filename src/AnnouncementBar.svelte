@@ -1,6 +1,6 @@
 <script>
     import CloseButton from './CloseButton.svelte';
-    export let handleClick;
+    export let handleBarClick;
 </script>
 
 <style>
@@ -25,7 +25,7 @@
 
 
 <div class="container">
-    <CloseButton ref="barClose" {handleClick} />
+    <CloseButton ref="barClose" {handleBarClick} />
     <p>
         <span role="img" aria-label="confetti emoji">🎉</span>See us in the press: Furniture Today, Business of Home, and Causal
         Living
