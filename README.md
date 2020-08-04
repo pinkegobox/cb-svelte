@@ -21,10 +21,10 @@ Svelte toy project where I re-created the landing page of <a href="http://commer
 
 Clone the repository and ensure the latest version of [Node.js](https://nodejs.org) is installed on your machine.
  
-Install the dependencies...
+Go to the project directory and install the dependencies...
 
 ```bash
-cd svelte-app
+cd NAME-OF-PROJECT
 npm install
 ```
 
