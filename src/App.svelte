@@ -20,14 +20,33 @@
         localStorage.setItem("isModalVisible", false);
     }
 
-    if (localStorage.getItem("isBarVisible")) {
+    if (localStorage.getItem("isBarVisible") === 'false') {
+		console.log(localStorage.getItem("isBarVisible"))
         isBarVisible = false;
 	}
 	
-	if (localStorage.getItem("isModalVisible")) {
+	if (localStorage.getItem("isModalVisible") === 'false') {
 		isModalVisible = false;
     }
 </script>
+
+<style>
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 99;
+}
+</style>
+
+{#if isModalVisible} 
+	<div class="overlay" />
+{:else}
+	<div></div>
+{/if}
 
 {#if isBarVisible}
 	<AnnouncementBar {handleBarClick}/>
