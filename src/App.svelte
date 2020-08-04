@@ -46,7 +46,7 @@
 <!-- show transparent overlay effect over entire page if modal is visible -->
 <!-- dismiss modal if user clicks outside of it -->
 {#if isModalVisible} 
-	<div class="overlay" use:clickOutside on:click={handleModalClick} />
+	<div class="overlay" on:click={handleModalClick} />
 {:else}
 	<div></div>
 {/if}
