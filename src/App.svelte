@@ -2,7 +2,7 @@
 	import AnnouncementBar from './AnnouncementBar.svelte';
 	import Modal from './Modal.svelte';
 	import Header from './Header.svelte';
-	import Main from './Main.svelte';
+	import MainContent from './MainContent.svelte';
 	import Footer from './Footer.svelte';
 
 	let isBarVisible = true;
@@ -63,5 +63,5 @@
 {/if}
 
 <Header />
-<Main />
+<MainContent />
 <Footer />
