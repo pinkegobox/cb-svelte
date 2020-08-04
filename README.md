@@ -10,13 +10,6 @@ Svelte toy project where I re-created the landing page of <a href="http://commer
     * Bootstrapped with sveltejs/template
     * HTML5 and modern CSS3 properties (Flexbox, CSS Grids)
 
-## To Do
-
-(Improvements I would like to make if I had more time)
-
-- Responsive design to make the page suitable for every screen width & device
-- Add CSS animations and style hover states to mirror the look of the main page more accurately
-
 ## Get started
 
 Clone the repository and ensure the latest version of [Node.js](https://nodejs.org) is installed on your machine.
@@ -28,12 +21,17 @@ cd NAME-OF-PROJECT
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+To start the development server...
 
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:5000](http://localhost:5000) and you should see the app running.
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+## To Do
+
+(Improvements I would like to make if I had more time)
+
+- Responsive design to make the page suitable for every screen width & device
+- Add CSS animations and style hover states to mirror the look of the main page more accurately
