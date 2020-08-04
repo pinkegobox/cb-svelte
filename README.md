@@ -1,6 +1,7 @@
 # CommerceBear Svelte
 
 View the project <a href="https://commerce-bear-svelte.vercel.app/">here</a>.
+(Best viewed on laptop and desktop devices)
 
 Svelte toy project where I re-created the landing page of <a href="http://commercebear.com/">CommerceBear</a> in order to compare and contrast the differences between popular JavaScript component frameworks React and Svelte.
 
