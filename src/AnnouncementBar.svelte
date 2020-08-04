@@ -1,13 +1,10 @@
 <script>
     import CloseButton from './CloseButton.svelte';
-
-    const handleClick = () => {
-        alert('you clicked the bar');
-    }
+    export let handleClick;
 </script>
 
 <style>
-    .container {
+.container {
     background-color: #545759;
     color: #fff;
     font-weight: bold;
@@ -28,7 +25,7 @@
 
 
 <div class="container">
-    <CloseButton ref="barClose" {handleClick}/>
+    <CloseButton ref="barClose" {handleClick} />
     <p>
         <span role="img" aria-label="confetti emoji">🎉</span>See us in the press: Furniture Today, Business of Home, and Causal
         Living
