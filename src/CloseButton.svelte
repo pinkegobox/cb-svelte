@@ -23,7 +23,6 @@
 }
 </style>
 
-
 <span
     class="closeAnnoucement"
     tabIndex="0"

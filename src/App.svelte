@@ -4,6 +4,7 @@
 	import Header from './Header.svelte';
 	import Main from './Main.svelte';
 	import Footer from './Footer.svelte';
+	import {clickOutside} from './clickOutside.js';
 
 	let isBarVisible = true;
 	let isModalVisible = true;
@@ -24,7 +25,7 @@
 	
 	if (localStorage.getItem("isModalVisible") === 'false') {
 		isModalVisible = false;
-    }
+	}
 </script>
 
 <style>
@@ -40,7 +41,7 @@
 </style>
 
 {#if isModalVisible} 
-	<div class="overlay" />
+	<div class="overlay" use:clickOutside on:click={handleModalClick} />
 {:else}
 	<div></div>
 {/if}
