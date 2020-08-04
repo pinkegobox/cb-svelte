@@ -9,11 +9,14 @@
 	let isBarVisible = true;
 	let isModalVisible = true;
 
+	//once user clicks element, data about the user's visit is stored on their browser through localStorage
     const handleBarClick = () => {
         isBarVisible = false;
         localStorage.setItem("isBarVisible", false);
 	}
 	
+	//checks if string of false exists to indicate whether the user has visited the page & interacted with the bar and modal before
+  	//if the user has, then update isBarVisible and/or isModalVisible to false to prevent announcement bar & modal from appearing again
 	const handleModalClick = () => {
         isModalVisible = false;
         localStorage.setItem("isModalVisible", false);
@@ -40,6 +43,8 @@
 }
 </style>
 
+<!-- show transparent overlay effect over entire page if modal is visible -->
+<!-- dismiss modal if user clicks outside of it -->
 {#if isModalVisible} 
 	<div class="overlay" use:clickOutside on:click={handleModalClick} />
 {:else}
