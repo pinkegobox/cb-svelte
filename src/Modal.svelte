@@ -80,7 +80,8 @@ h2 {
         great analysis.
     </p>
     <form action="#" class="form">
-        <input type="text" placeholder="Email Address" />
+        <label for="email" class="srOnly">Your Email Address</label>
+        <input type="text" name="email" id="email" placeholder="Email Address" />
         <input type="button" value="Sign Up" />
     </form>
     <p class="formDisclaimer">We respect your privacy.</p>
