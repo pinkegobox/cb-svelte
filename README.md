@@ -14,7 +14,7 @@ Svelte toy project where I re-created the landing page of <a href="http://commer
 
 (Improvements I would like to make if I had more time)
 
-- Replace class components with function components using React Hooks
+- Responsive design to make the page suitable for every screen width & device
 - Add CSS animations and style hover states to mirror the look of the main page more accurately
 
 ## Get started
