@@ -24,7 +24,7 @@
         isBarVisible = false;
 	}
 	
-	 if (localStorage.getItem("isModalVisible")) {
+	if (localStorage.getItem("isModalVisible")) {
 		isModalVisible = false;
     }
 </script>

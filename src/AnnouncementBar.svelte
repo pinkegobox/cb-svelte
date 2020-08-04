@@ -27,7 +27,6 @@
 <div class="container">
     <CloseButton ref="barClose" {handleBarClick} />
     <p>
-        <span role="img" aria-label="confetti emoji">🎉</span>See us in the press: Furniture Today, Business of Home, and Causal
-        Living
+        <span role="img" aria-label="confetti emoji">🎉</span>See us in the press: Furniture Today, Business of Home, and Casual Living
     </p>
 </div>
