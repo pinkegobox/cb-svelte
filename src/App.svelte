@@ -4,7 +4,6 @@
 	import Header from './Header.svelte';
 	import Main from './Main.svelte';
 	import Footer from './Footer.svelte';
-	import {clickOutside} from './clickOutside.js';
 
 	let isBarVisible = true;
 	let isModalVisible = true;
@@ -14,14 +13,14 @@
         isBarVisible = false;
         localStorage.setItem("isBarVisible", false);
 	}
-	
-	//checks if string of false exists to indicate whether the user has visited the page & interacted with the bar and modal before
-  	//if the user has, then update isBarVisible and/or isModalVisible to false to prevent announcement bar & modal from appearing again
+
 	const handleModalClick = () => {
         isModalVisible = false;
         localStorage.setItem("isModalVisible", false);
     }
-
+	
+	//checks if string of false exists to indicate whether the user has visited the page & interacted with the bar and modal before
+  	//if the user has, then update isBarVisible and/or isModalVisible to false to prevent announcement bar & modal from appearing again
     if (localStorage.getItem("isBarVisible") === 'false') {
         isBarVisible = false;
 	}
