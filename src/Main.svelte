@@ -36,10 +36,6 @@ h2 {
 .learnMore h2 {
     margin-bottom: 5rem;
 }
-
-/* .learnMore a {
-    font-size: 2rem;
-} */
 </style>
 
 <main class="wrapper container">
@@ -50,7 +46,7 @@ h2 {
         </h2>
         <h2>Over 53,720 furniture SKUs published.</h2>
     </div>
-    <img src="/assets/ecommerce.png" alt="" />
+    <img src="/assets/ecommerce.png" alt="omni-channel marketing strategy" />
     <h2>
         Designed to drive sales and automate operations.
     </h2>
